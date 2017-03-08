@@ -10,7 +10,7 @@ let nforce = require('nforce'),
 let org = nforce.createConnection({
     clientId: SF_CLIENT_ID,
     clientSecret: SF_CLIENT_SECRET,
-    redirectUri: 'https://cryptic-beyond-79083.herokuapp.com/oauth/_callback',
+    redirectUri: 'https://developbot-dev-ed.lightning.force.com/oauthcallback.html',
     mode: 'single',
     autoRefresh: true
 });
